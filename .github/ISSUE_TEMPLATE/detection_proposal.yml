@@ -1,0 +1,35 @@
+name: Detection Proposal
+description: Propose a detection rule, suppression, or detection-quality improvement.
+title: "[Detection]: "
+labels: ["detection"]
+body:
+  - type: input
+    id: behavior
+    attributes:
+      label: Behavior or technique
+      placeholder: Suspicious PowerShell download cradle
+    validations:
+      required: true
+  - type: textarea
+    id: telemetry
+    attributes:
+      label: Required telemetry fields
+      placeholder: process.name, process.command_line, parent.name, user, file.path
+    validations:
+      required: true
+  - type: textarea
+    id: logic
+    attributes:
+      label: Proposed logic
+    validations:
+      required: true
+  - type: textarea
+    id: benign
+    attributes:
+      label: Benign cases and false-positive risk
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Safe reproduction or sanitized evidence

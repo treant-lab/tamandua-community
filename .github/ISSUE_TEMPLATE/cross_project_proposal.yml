@@ -1,0 +1,30 @@
+name: Cross-Project Proposal
+description: Propose a change that affects multiple Tamandua repositories.
+title: "[Proposal]: "
+labels: ["proposal"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+    validations:
+      required: true
+  - type: textarea
+    id: repositories
+    attributes:
+      label: Affected repositories
+      placeholder: tamandua-agent, tamandua-server, tamandua-core
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed direction
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: Security, privacy, compatibility, or rollout risks
+    validations:
+      required: true

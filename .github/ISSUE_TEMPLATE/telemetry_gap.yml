@@ -1,0 +1,34 @@
+name: Telemetry Gap
+description: Report missing, ambiguous, or low-quality telemetry.
+title: "[Telemetry gap]: "
+labels: ["telemetry"]
+body:
+  - type: input
+    id: platform
+    attributes:
+      label: Platform and version
+      placeholder: Windows 11 23H2, Linux kernel, macOS version
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected fields
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed fields
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Safe reproduction steps
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Detection or investigation impact
