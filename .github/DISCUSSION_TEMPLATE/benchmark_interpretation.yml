@@ -1,0 +1,24 @@
+title: "[Benchmark]: "
+labels: ["benchmark"]
+body:
+  - type: markdown
+    attributes:
+      value: "Use this for interpreting public-safe validation results. Do not post secrets, customer telemetry, live malware samples, or exploit payloads."
+  - type: input
+    id: profile
+    attributes:
+      label: Profile or scenario
+      placeholder: windows-atomic-upstream-smoke
+  - type: textarea
+    id: question
+    attributes:
+      label: Question or interpretation request
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Public-safe evidence
+      description: Link sanitized artifacts, summarized results, or reproduction notes.
+  - type: textarea
+    id: gap
+    attributes:
+      label: Known gap or uncertainty

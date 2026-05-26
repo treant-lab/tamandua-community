@@ -1,0 +1,20 @@
+title: "[Detection idea]: "
+labels: ["detection"]
+body:
+  - type: input
+    id: behavior
+    attributes:
+      label: Behavior
+      placeholder: Suspicious script interpreter with encoded payload
+  - type: textarea
+    id: telemetry
+    attributes:
+      label: Required telemetry
+  - type: textarea
+    id: benign
+    attributes:
+      label: Benign cases
+  - type: textarea
+    id: validation
+    attributes:
+      label: Safe validation approach

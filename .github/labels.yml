@@ -1,0 +1,30 @@
+- name: benchmark
+  color: "1f77b4"
+  description: Validation, benchmark interpretation, or evidence quality.
+- name: detection
+  color: "d62728"
+  description: Detection logic, Sigma/YARA, ATT&CK mapping, or rule metadata.
+- name: false-positive
+  color: "ff7f0e"
+  description: Benign activity that generated unexpected alerts.
+- name: telemetry
+  color: "9467bd"
+  description: Endpoint event quality, schema, collector health, or missing fields.
+- name: proposal
+  color: "2ca02c"
+  description: Cross-project proposal or early RFC.
+- name: roadmap
+  color: "17becf"
+  description: Public roadmap, milestone, or project direction.
+- name: response-safety
+  color: "8c564b"
+  description: Response workflow safety, auditability, rollback, or authorization.
+- name: docs
+  color: "7f7f7f"
+  description: Documentation, onboarding, templates, or community process.
+- name: needs-triage
+  color: "bcbd22"
+  description: Needs maintainer routing or classification.
+- name: security-private
+  color: "000000"
+  description: Do not discuss details publicly; use SECURITY.md.

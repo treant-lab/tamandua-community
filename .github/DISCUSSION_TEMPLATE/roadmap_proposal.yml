@@ -1,0 +1,19 @@
+title: "[Roadmap]: "
+labels: ["roadmap"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed direction
+  - type: textarea
+    id: repositories
+    attributes:
+      label: Affected repositories
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risks and open questions

@@ -1,3 +1,22 @@
+<p align="center">
+  <img src="assets/tamandua-logo.png" alt="Tamandua" width="360">
+</p>
+
+<p align="center">
+  <strong>Community coordination for Tamandua's open security ecosystem</strong><br>
+  Detection validation, endpoint evidence, response safety, and privacy-safe proof workflows.
+</p>
+
+<p align="center">
+  <a href="CONTRIBUTING.md">Contributing</a> |
+  <a href="ROADMAP.md">Roadmap</a> |
+  <a href="benchmarks/VALIDATION_SNAPSHOT.md">Benchmarks</a> |
+  <a href="SECURITY.md">Security</a> |
+  <a href="docs/REPOSITORIES.md">Repositories</a>
+</p>
+
+---
+
 # Tamandua Community
 
 Tamandua Community is the public entry point for people who want to discuss, test, document, and improve Tamandua across repositories.
@@ -13,6 +32,7 @@ This repository is for community coordination. Product code lives in the compone
 - Pick a contribution track in [docs/CONTRIBUTION_TRACKS.md](docs/CONTRIBUTION_TRACKS.md).
 - Browse starter ideas in [docs/GOOD_FIRST_ISSUES.md](docs/GOOD_FIRST_ISSUES.md).
 - Check public project boundaries in [ROADMAP.md](ROADMAP.md).
+- Review the public benchmark snapshot in [benchmarks/VALIDATION_SNAPSHOT.md](benchmarks/VALIDATION_SNAPSHOT.md).
 
 ## Repositories
 
@@ -59,6 +79,15 @@ Tamandua treats validation as part of the product. Benchmark claims should ident
 - sanitized artifacts or reproduction notes.
 
 Screenshots are useful context, but they are not a substitute for reproducible evidence.
+
+Current public benchmark docs:
+
+- [Validation Snapshot](benchmarks/VALIDATION_SNAPSHOT.md)
+- [Methodology](benchmarks/METHODOLOGY.md)
+- [Windows Coverage Summary](benchmarks/WINDOWS_COVERAGE_SUMMARY.md)
+- [False Positive Regression](benchmarks/FALSE_POSITIVE_REGRESSION.md)
+- [CALDERA Enterprise Safe Status](benchmarks/CALDERA_ENTERPRISE_SAFE_STATUS.md)
+- [Detection Rule Metadata](benchmarks/DETECTION_RULE_METADATA.md)
 
 ## Repository Role
 
