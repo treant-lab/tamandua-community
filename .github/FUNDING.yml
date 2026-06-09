@@ -1,0 +1,14 @@
+# Tamandua EDR — funding configuration.
+# OSS-led and self-funded. Donations are optional; no feature is gated behind them.
+#
+# GitHub Sponsors has no native cryptocurrency field, so the wallet addresses are
+# published in the canonical donate doc (verify there before sending):
+#   https://github.com/treant-lab/tamandua/blob/main/docs/community/DONATE.md
+#
+#   Solana (SOL/SPL):    GBj4obNHAMRyQu7PdmsKnfUoTkcr8m6D7ksnm6Bc4T78
+#   Bitcoin (BTC):       bc1qc5x60ghdcja28exdau6mn2jd5c7zp7f52st4gh
+#   Ethereum (ETH/ERC20): 0xAd5597b261Af201f05b7D895cc5EdE72b0C9490A
+#   Tron (TRX/TRC20):    TJzu6QgjfvcfBx99c2oRgjB17syFadqurZ
+
+custom:
+  - "https://github.com/treant-lab/tamandua/blob/main/docs/community/DONATE.md"

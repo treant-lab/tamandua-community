@@ -1,0 +1,174 @@
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      time: "09:00"
+    labels: ["dependencies", "github-actions"]
+
+  - package-ecosystem: cargo
+    directory: /apps/tamandua_agent
+    schedule:
+      interval: weekly
+    labels: ["dependencies", "rust", "agent"]
+    groups:
+      rust-agent:
+        patterns: ["*"]
+
+  - package-ecosystem: cargo
+    directory: /apps/tamandua_agent/ebpf-programs
+    schedule:
+      interval: weekly
+    labels: ["dependencies", "rust", "ebpf"]
+    groups:
+      rust-agent-ebpf:
+        patterns: ["*"]
+
+  - package-ecosystem: cargo
+    directory: /apps/tamandua_ctl
+    schedule:
+      interval: weekly
+    labels: ["dependencies", "rust", "cli"]
+    groups:
+      rust-cli:
+        patterns: ["*"]
+
+  - package-ecosystem: cargo
+    directory: /apps/tamandua_gui/src-tauri
+    schedule:
+      interval: weekly
+    labels: ["dependencies", "rust", "gui"]
+    groups:
+      rust-gui-tauri:
+        patterns: ["*"]
+
+  - package-ecosystem: cargo
+    directory: /libs/tamandua-core
+    schedule:
+      interval: weekly
+    labels: ["dependencies", "rust", "core"]
+    groups:
+      rust-core:
+        patterns: ["*"]
+
+  - package-ecosystem: cargo
+    directory: /apps/tamandua_solana
+    schedule:
+      interval: weekly
+    labels: ["dependencies", "rust", "solana"]
+    groups:
+      rust-solana:
+        patterns: ["*"]
+
+  - package-ecosystem: mix
+    directory: /apps/tamandua_server
+    schedule:
+      interval: weekly
+    labels: ["dependencies", "elixir", "backend"]
+    groups:
+      elixir-backend:
+        patterns: ["*"]
+
+  - package-ecosystem: mix
+    directory: /
+    schedule:
+      interval: weekly
+    labels: ["dependencies", "elixir"]
+    groups:
+      elixir-root:
+        patterns: ["*"]
+
+  - package-ecosystem: pip
+    directory: /apps/tamandua_ml
+    schedule:
+      interval: weekly
+    labels: ["dependencies", "python", "ml"]
+    groups:
+      python-ml:
+        patterns: ["*"]
+
+  - package-ecosystem: pip
+    directory: /sdk/python
+    schedule:
+      interval: weekly
+    labels: ["dependencies", "python", "sdk"]
+    groups:
+      python-sdk:
+        patterns: ["*"]
+
+  - package-ecosystem: pip
+    directory: /tests/e2e
+    schedule:
+      interval: weekly
+    labels: ["dependencies", "python", "tests"]
+    groups:
+      python-e2e-tests:
+        patterns: ["*"]
+
+  - package-ecosystem: pip
+    directory: /tests/load
+    schedule:
+      interval: weekly
+    labels: ["dependencies", "python", "tests"]
+    groups:
+      python-load-tests:
+        patterns: ["*"]
+
+  - package-ecosystem: pip
+    directory: /infra/test-vms/art/runner
+    schedule:
+      interval: weekly
+    labels: ["dependencies", "python", "validation"]
+    groups:
+      python-art-runner:
+        patterns: ["*"]
+
+  - package-ecosystem: pip
+    directory: /infra/test-vms/art/validation
+    schedule:
+      interval: weekly
+    labels: ["dependencies", "python", "validation"]
+    groups:
+      python-art-validation:
+        patterns: ["*"]
+
+  - package-ecosystem: npm
+    directory: /apps/tamandua_server/assets
+    schedule:
+      interval: weekly
+    labels: ["dependencies", "javascript", "web"]
+    groups:
+      web-assets:
+        patterns: ["*"]
+
+  - package-ecosystem: npm
+    directory: /apps/tamandua_gui
+    schedule:
+      interval: weekly
+    labels: ["dependencies", "javascript", "gui"]
+    groups:
+      gui-web:
+        patterns: ["*"]
+
+  - package-ecosystem: npm
+    directory: /website
+    schedule:
+      interval: weekly
+    labels: ["dependencies", "javascript", "website"]
+    groups:
+      website:
+        patterns: ["*"]
+
+  - package-ecosystem: docker
+    directory: /apps/tamandua_server
+    schedule:
+      interval: weekly
+    labels: ["dependencies", "docker", "backend"]
+
+  - package-ecosystem: docker
+    directory: /apps/tamandua_ml
+    schedule:
+      interval: weekly
+    labels: ["dependencies", "docker", "ml"]
