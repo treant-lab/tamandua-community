@@ -1,13 +1,26 @@
 # Tamandua Open Source Roadmap
 
-Status: planning / public operating model
-Last updated: 2026-05-19
+Status: active / public operating model
+Last updated: 2026-06-19
 
-This roadmap explains how Tamandua should become useful as an open-source security project without pretending every internal or experimental feature is production-ready.
+This roadmap explains how Tamandua is being operated as an open-source security project without pretending every internal or experimental feature is production-ready.
 
 The principle is simple:
 
-> Open the parts that benefit from transparency, validation, and community contribution. Gate privileged response, update, driver, and supply-chain surfaces with extra review.
+> Keep the public code inspectable and contribution-friendly. Gate privileged response, update, driver, and supply-chain surfaces with extra review.
+
+## Current Public Repositories
+
+- `treant-lab/tamandua` - canonical monorepo and source of truth.
+- `treant-lab/tamandua-agent` - endpoint agent mirror.
+- `treant-lab/tamandua-server` - server, console, API, response, and attestation mirror.
+- `treant-lab/tamandua-core` - reusable core library mirror.
+- `treant-lab/tamandua-ctl` - CLI mirror.
+- `treant-lab/tamandua-gui` - desktop GUI mirror.
+- `treant-lab/tamandua-browser-extension` - browser extension mirror.
+- `treant-lab/tamandua-detection-validation` - validation harness, schemas, and scorecard mirror.
+- `treant-lab/tamandua-community` - governance, contribution, and community docs mirror.
+- `tamandua-ml` is intentionally held until experimental model artifacts and public claim boundaries are ready.
 
 ## Goals
 
@@ -68,11 +81,12 @@ Do not publish casually:
 
 ### Phase 0: Honest Public Surface
 
-Goal: stop overclaiming and make the repo navigable.
+Goal: keep the public repos navigable and avoid overclaiming.
 
 Deliverables:
 
 - current product boundary documented;
+- canonical monorepo and component mirrors published;
 - known production gaps visible;
 - Discord and GitHub contribution paths clear;
 - public invite published;

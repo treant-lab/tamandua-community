@@ -19,7 +19,7 @@ Only the latest minor release of each major version receives security patches. W
 
 Instead, please report security vulnerabilities by emailing:
 
-**contato@treantlab.org**
+**security@treant.io**
 
 Please include as much of the following information as possible to help us better understand and resolve the issue:
 
@@ -135,12 +135,12 @@ For sensitive communications, you may encrypt your message using our PGP public 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
-[PGP KEY PLACEHOLDER - Contact contato@treantlab.org for current key]
+[PGP KEY PLACEHOLDER - Contact security@treant.io for current key]
 
 -----END PGP PUBLIC KEY BLOCK-----
 ```
 
-Alternatively, request our current PGP key by emailing contato@treantlab.org with the subject line "PGP Key Request".
+Alternatively, request our current PGP key by emailing security@treant.io with the subject line "PGP Key Request".
 
 ## Security Updates
 
@@ -296,8 +296,8 @@ The security benefits far outweigh the negligible performance impact for product
 
 ## Additional Resources
 
-- [GitHub Security Advisories](https://github.com/treant/tamandua/security/advisories)
-- [Tamandua Documentation](https://docs.treantlab.org)
+- [GitHub Security Advisories](https://github.com/treant-lab/tamandua/security/advisories)
+- [Tamandua Documentation](https://docs.treant.io/tamandua)
 - [Build Scripts](apps/tamandua_agent/scripts/)
 - [Cargo Profile Documentation](apps/tamandua_agent/Cargo.toml)
 
