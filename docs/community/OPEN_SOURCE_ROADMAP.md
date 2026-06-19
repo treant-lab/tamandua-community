@@ -11,7 +11,7 @@ The principle is simple:
 
 ## Current Public Repositories
 
-- `treant-lab/tamandua` - canonical monorepo and source of truth.
+- `treant-lab/tamandua-community` - public governance, contribution, and community docs hub.
 - `treant-lab/tamandua-agent` - endpoint agent mirror.
 - `treant-lab/tamandua-server` - server, console, API, response, and attestation mirror.
 - `treant-lab/tamandua-core` - reusable core library mirror.
@@ -86,7 +86,7 @@ Goal: keep the public repos navigable and avoid overclaiming.
 Deliverables:
 
 - current product boundary documented;
-- canonical monorepo and component mirrors published;
+- community hub and component mirrors published;
 - known production gaps visible;
 - Discord and GitHub contribution paths clear;
 - public invite published;

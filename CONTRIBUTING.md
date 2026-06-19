@@ -19,9 +19,9 @@ Please read and follow our [Code of Conduct](CODE_OF_CONDUCT.md).
 ### Quick Setup
 
 ```bash
-# Clone the repository
-git clone https://github.com/treant-lab/tamandua.git
-cd tamandua
+# Start from the public community hub and component mirrors
+git clone https://github.com/treant-lab/tamandua-community.git
+cd tamandua-community
 
 # Start infrastructure (PostgreSQL, Redis, RabbitMQ)
 make dev-up
@@ -149,8 +149,8 @@ Key directories:
 ## Getting Help
 
 - Discord - real-time chat, onboarding, demos, and support triage. See [docs/community/COMMUNITY.md](docs/community/COMMUNITY.md) for the channel map and launch checklist.
-- [GitHub Discussions](https://github.com/treant-lab/tamandua/discussions) - Q&A, benchmark interpretation, detection ideas, roadmap proposals, and contributor coordination.
-- [GitHub Issues](https://github.com/treant-lab/tamandua/issues) - confirmed bugs and actionable engineering tasks.
+- [GitHub Discussions](https://github.com/treant-lab/tamandua-community/discussions) - Q&A, benchmark interpretation, detection ideas, roadmap proposals, and contributor coordination.
+- [GitHub Issues](https://github.com/treant-lab/tamandua-community/issues) - confirmed bugs and actionable engineering tasks.
 - [SECURITY.md](SECURITY.md) - vulnerability reports and sensitive disclosure.
 
 Do not post private keys, credentials, live malware samples, exploit payloads, or sensitive customer logs in public channels.

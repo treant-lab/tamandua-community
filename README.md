@@ -167,9 +167,9 @@ tamandua/
 ### Development Setup
 
 ```bash
-# Clone the repository
-git clone https://github.com/treant-lab/tamandua.git
-cd tamandua
+# Start from the public community hub and component mirrors
+git clone https://github.com/treant-lab/tamandua-community.git
+cd tamandua-community
 
 # Start infrastructure
 make dev-up
