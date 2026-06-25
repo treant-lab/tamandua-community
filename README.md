@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="apps/tamandua_gui/src/assets/logo.png" alt="Tamandua EDR" width="400">
+  <img src="assets/logo.png" alt="Tamandua EDR" width="400">
 </p>
 
 <p align="center">
