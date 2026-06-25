@@ -248,29 +248,20 @@ The ML layer is grounded in the Malware-SMELL research line:
 
 > Malware-SMELL: A zero-shot learning strategy for detecting zero-day vulnerabilities, Computers & Security 120 (2022), 102785.
 
-Tamandua adapts this idea into an operational EDR/XDR pipeline where ML scoring complements deterministic rules, behavioral telemetry, and response workflows. The current Malware-SMELL implementation is not yet production-trained; see [docs/KNOWN_PRODUCTION_GAPS.md](docs/KNOWN_PRODUCTION_GAPS.md) and [docs/apps/tamandua_ml/ML_BENCHMARK_VALIDATION_PLAN.md](docs/apps/tamandua_ml/ML_BENCHMARK_VALIDATION_PLAN.md) for the governed ML-1..ML-6 path. We also acknowledge technical support and guidance from the Malware-SMELL creator/research team. See [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md).
+Tamandua adapts this idea into an operational EDR/XDR pipeline where ML scoring complements deterministic rules, behavioral telemetry, and response workflows. The current Malware-SMELL implementation is not yet production-trained; public validation artifacts will be published only after they pass the release review boundary. We also acknowledge technical support and guidance from the Malware-SMELL creator/research team. See [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md).
 
 ## Documentation
 
-Comprehensive documentation is available in the [docs/](docs/) directory:
+Public community documentation is available in the [docs/community/](docs/community/) directory:
 
-- **Quick Start**: [docs/START_HERE.md](docs/START_HERE.md) - Get started in 2 minutes
-- **Roadmap Hub**: [docs/ROADMAP_HUB.md](docs/ROADMAP_HUB.md) - Canonical roadmap hierarchy, current truth snapshot, and Now/Next/Later priorities
-- **Crypto Security Business & Token Strategy**: [docs/strategy/CRYPTO_SECURITY_BUSINESS_AND_TOKEN_STRATEGY.md](docs/strategy/CRYPTO_SECURITY_BUSINESS_AND_TOKEN_STRATEGY.md) - Paid pilots, validation lab, marketplace economics, fundraising posture, and token gating
-- **Detection Validation**: [docs/benchmarks/DETECTION_VALIDATION.md](docs/benchmarks/DETECTION_VALIDATION.md) - Benchmark runner, evidence scoring, and validation roadmap
-- **Public Alpha Product Validation**: [docs/community/PUBLIC_ALPHA_PRODUCT_VALIDATION_CHECKLIST.md](docs/community/PUBLIC_ALPHA_PRODUCT_VALIDATION_CHECKLIST.md) - Go/no-go gates, operational safety rules, server 146 validation, UI/API checks, and evidence packet requirements
-- **Network Insight + Response Contract**: [docs/NETWORK_INSIGHT_RESPONSE_ACTIONS_CONTRACT.md](docs/NETWORK_INSIGHT_RESPONSE_ACTIONS_CONTRACT.md) - Windows/Linux payload and response command contract
-- **Major Goals & Roadmap**: [docs/planejamento/MAJOR_GOALS_AND_PUBLIC_ROADMAP.md](docs/planejamento/MAJOR_GOALS_AND_PUBLIC_ROADMAP.md) - Product goals, staged open-source plan, and dated roadmap
-- **Known Production Gaps**: [docs/KNOWN_PRODUCTION_GAPS.md](docs/KNOWN_PRODUCTION_GAPS.md) - Honest status boundaries for early adopters and hackathon reviewers
-- **Supply Chain Security**: [docs/security/SUPPLY_CHAIN_SECURITY.md](docs/security/SUPPLY_CHAIN_SECURITY.md) - SBOM, dependency scanning, update automation, and provenance hardening
-- **Whitepaper**: [docs/TAMANDUA_SENTINEL_WHITEPAPER.md](docs/TAMANDUA_SENTINEL_WHITEPAPER.md) - Web3 EDR thesis, privacy-safe Solana proof, bounty governance, reputation, and marketplace roadmap
-- **Architecture**: [docs/architecture/](docs/architecture/) - System design and architecture
-- **Implementation**: [docs/implementation/](docs/implementation/) - Implementation guides and roadmap
-- **API Reference**: [docs/api/](docs/api/) - API documentation
-- **Deployment**: [docs/deployment/](docs/deployment/) - Deployment guides
-- **User Guide**: [docs/user-guide/](docs/user-guide/) - End-user documentation
+- **Community setup and channel map**: [docs/community/COMMUNITY.md](docs/community/COMMUNITY.md)
+- **Contribution tracks**: [docs/community/CONTRIBUTION_TRACKS.md](docs/community/CONTRIBUTION_TRACKS.md)
+- **Open source roadmap**: [docs/community/OPEN_SOURCE_ROADMAP.md](docs/community/OPEN_SOURCE_ROADMAP.md)
+- **Good first issues**: [docs/community/GOOD_FIRST_ISSUES.md](docs/community/GOOD_FIRST_ISSUES.md)
+- **Discord operating guide**: [docs/community/DISCORD_OPERATING_GUIDE.md](docs/community/DISCORD_OPERATING_GUIDE.md)
+- **Public alpha validation checklist**: [docs/community/PUBLIC_ALPHA_PRODUCT_VALIDATION_CHECKLIST.md](docs/community/PUBLIC_ALPHA_PRODUCT_VALIDATION_CHECKLIST.md)
 
-See [docs/README.md](docs/README.md) for complete documentation index.
+Internal implementation docs, production gap trackers, lab runbooks, API references, and operational validation evidence are published only after explicit release review.
 
 ## Community
 

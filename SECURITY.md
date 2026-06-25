@@ -298,8 +298,7 @@ The security benefits far outweigh the negligible performance impact for product
 
 - [GitHub Security Advisories](https://github.com/treant-lab/tamandua-community/security/advisories)
 - [Tamandua Documentation](https://docs.treant.io/tamandua)
-- [Build Scripts](apps/tamandua_agent/scripts/)
-- [Cargo Profile Documentation](apps/tamandua_agent/Cargo.toml)
+- Public hardening and build documentation will be linked here after release review.
 
 ---
 
