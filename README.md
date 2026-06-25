@@ -258,6 +258,7 @@ Comprehensive documentation is available in the [docs/](docs/) directory:
 - **Roadmap Hub**: [docs/ROADMAP_HUB.md](docs/ROADMAP_HUB.md) - Canonical roadmap hierarchy, current truth snapshot, and Now/Next/Later priorities
 - **Crypto Security Business & Token Strategy**: [docs/strategy/CRYPTO_SECURITY_BUSINESS_AND_TOKEN_STRATEGY.md](docs/strategy/CRYPTO_SECURITY_BUSINESS_AND_TOKEN_STRATEGY.md) - Paid pilots, validation lab, marketplace economics, fundraising posture, and token gating
 - **Detection Validation**: [docs/benchmarks/DETECTION_VALIDATION.md](docs/benchmarks/DETECTION_VALIDATION.md) - Benchmark runner, evidence scoring, and validation roadmap
+- **Public Alpha Product Validation**: [docs/community/PUBLIC_ALPHA_PRODUCT_VALIDATION_CHECKLIST.md](docs/community/PUBLIC_ALPHA_PRODUCT_VALIDATION_CHECKLIST.md) - Go/no-go gates, operational safety rules, server 146 validation, UI/API checks, and evidence packet requirements
 - **Network Insight + Response Contract**: [docs/NETWORK_INSIGHT_RESPONSE_ACTIONS_CONTRACT.md](docs/NETWORK_INSIGHT_RESPONSE_ACTIONS_CONTRACT.md) - Windows/Linux payload and response command contract
 - **Major Goals & Roadmap**: [docs/planejamento/MAJOR_GOALS_AND_PUBLIC_ROADMAP.md](docs/planejamento/MAJOR_GOALS_AND_PUBLIC_ROADMAP.md) - Product goals, staged open-source plan, and dated roadmap
 - **Known Production Gaps**: [docs/KNOWN_PRODUCTION_GAPS.md](docs/KNOWN_PRODUCTION_GAPS.md) - Honest status boundaries for early adopters and hackathon reviewers
