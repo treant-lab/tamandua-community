@@ -78,7 +78,8 @@ Start here:
 
 - README: project overview and local setup.
 - Detection Validation docs: benchmark workflow and evidence quality.
-- Known Production Gaps: honest status boundary.
+- Open Source Roadmap: public scope and staged release boundary.
+- Public Alpha Validation Checklist: validation evidence expected before stronger product claims.
 - Security policy: vulnerability disclosure and safe reporting.
 - `#getting-started`: install help and first agent enrollment.
 - `#benchmarks`: reproducible validation artifacts.

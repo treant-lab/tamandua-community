@@ -19,7 +19,6 @@ The principle is simple:
 - `treant-lab/tamandua-gui` - desktop GUI mirror.
 - `treant-lab/tamandua-browser-extension` - browser extension mirror.
 - `treant-lab/tamandua-detection-validation` - validation harness, schemas, and scorecard mirror.
-- `treant-lab/tamandua-community` - governance, contribution, and community docs mirror.
 - `tamandua-ml` is intentionally held until experimental model artifacts and public claim boundaries are ready.
 
 ## Goals
@@ -87,7 +86,7 @@ Deliverables:
 
 - current product boundary documented;
 - community hub and component mirrors published;
-- known production gaps visible;
+- public claim boundaries visible;
 - Discord and GitHub contribution paths clear;
 - public invite published;
 - issue/discussion templates aligned with benchmark and detection quality;
@@ -172,17 +171,22 @@ Goal: reward validated defensive value without incentivizing noisy detections.
 Deliverables:
 
 - contribution review states;
+- App Guard protected-app research program contract boundary;
+- read-only community and research program GUI foundation;
+- server-side mobile/App Guard event ingestion and tenant-scoped registry foundations;
 - duplicate detection;
 - PII/sensitive telemetry checks;
 - reviewer approval workflow;
 - public-safe attribution;
 - benchmark coverage scoring;
 - false-positive tracking;
-- optional bounty settlement workflow.
+- optional bounty settlement workflow after reviewer queue, payout controls, and antifraud review exist.
 
 Exit criteria:
 
 - a defensive artifact can be reviewed, validated, attributed, and optionally rewarded without exposing tenant telemetry.
+
+App Guard and Research Programs are public roadmap foundations, not a public bounty/payment launch. The public mirrors may expose schemas, read-only UI surfaces, ingestion contracts, and validation fixtures; submission workflows, payouts, moderation internals, and customer-specific telemetry remain gated until release review.
 
 ## Contributor Tracks
 
@@ -337,6 +341,7 @@ Recommended GitHub Discussions categories:
 - benign workload baselines;
 - signed release pipeline;
 - contribution review workflow;
+- App Guard research program schemas and validation fixtures;
 - first community rule/benchmark packs;
 - public examples of privacy-safe proofs.
 
