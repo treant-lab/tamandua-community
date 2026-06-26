@@ -61,8 +61,7 @@ Avoid creating too many channels at launch. Add enterprise/private Slack later o
   - Repository
   - README
   - Detection Validation docs
-  - Open Source Roadmap
-  - Public Alpha Validation Checklist
+  - Roadmap Hub and current validation snapshot
   - Security policy
 - Post the current validation snapshot in `#benchmarks`.
 - Post the contribution paths in `#contributors`.
