@@ -298,7 +298,9 @@ If you discover a security vulnerability, please report it to victor@treantlab.o
 
 ## License
 
-License strategy is part of the staged open-source release plan. The intended public components are expected to use a permissive license, but no root `LICENSE` file is published in this monorepo yet.
+This community repository is published under the license in [LICENSE](LICENSE).
+Individual Tamandua component mirrors may carry their own license and notice
+files as they are released.
 
 ## Acknowledgments
 
